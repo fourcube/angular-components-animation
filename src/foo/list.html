@@ -1,0 +1,5 @@
+<button ng-click="$ctrl.addItem()">Push</button>
+<button ng-click="$ctrl.removeItem()">Pop</button>
+<ul>
+    <foo-item class="smooth-in" ng-repeat="item in $ctrl.list" item="item"></foo-item>
+</ul>
